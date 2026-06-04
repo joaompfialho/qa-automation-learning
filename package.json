@@ -1,0 +1,28 @@
+{
+  "name": "qa-automation-learning",
+  "version": "1.0.0",
+  "description": "This is another step to be a better automation engineer.",
+  "main": "001.fundamentals_practice.js",
+  "scripts": {
+    "test": "npx playwright test tests/firstTestCase.spec.ts --project=chromium --workers=1 --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaompfialho/qa-automation-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "^24.0.0"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joaompfialho/qa-automation-learning/issues"
+  },
+  "homepage": "https://github.com/joaompfialho/qa-automation-learning#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  }
+}
