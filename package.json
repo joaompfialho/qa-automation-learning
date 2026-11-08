@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "^24.0.0"
+    "node": ">=24.0.0"
   },
   "type": "commonjs",
   "bugs": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/joaompfialho/qa-automation-learning#readme",
   "devDependencies": {
-    "@playwright/test": "^1.60.0",
+    "@playwright/test": "^1.65.0",
     "@types/node": "^25.9.1"
   }
 }
